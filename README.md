@@ -31,7 +31,7 @@
   </a>
 </p>
 
-Current Supabase version, through supabase (`🗲`).
+Current Supabase project reference, using the project-ref file (`🗲`).
 
 ## Installing
 
