@@ -4,16 +4,16 @@
 </h1>
 
 <h4 align="center">
-  A <a href="https://template.com" target="_blank">Supabase</a> section for Spaceship prompt
+  A <a href="https://supabase.com" target="_blank">Supabase</a> section for Spaceship prompt
 </h4>
 
 <p align="center">
-  <a href="https://github.com/spaceship-prompt/spaceship-section/releases">
-    <img src="https://img.shields.io/github/v/release/spaceship-prompt/spaceship-section.svg?style=flat-square"
+  <a href="https://github.com/amerryma/spaceship-supabase/releases">
+    <img src="https://img.shields.io/github/v/release/amerryma/spaceship-supabase.svg?style=flat-square"
       alt="GitHub Release" />
   </a>
 
-  <a href="https://github.com/spaceship-prompt/spaceship-section/actions">
+  <a href="https://github.com/amerryma/spaceship-supabase/actions">
     <img src="https://img.shields.io/github/actions/workflow/status/spaceship-prompt/spaceship-gradle/ci.yaml?style=flat-square"
       alt="GitHub Workflow Status" />
   </a>
@@ -42,7 +42,7 @@ You need to source this plugin somewhere in your dotfiles. Here's how to do it w
 Execute this command to clone this repo into Oh-My-Zsh plugin's folder:
 
 ```zsh
-git clone https://github.com/spaceship-prompt/spaceship-section.git $ZSH_CUSTOM/plugins/spaceship-section
+git clone https://github.com/amerryma/spaceship-supabase.git $ZSH_CUSTOM/plugins/spaceship-section
 ```
 
 Include `spaceship-section` in Oh-My-Zsh plugins list:
@@ -54,38 +54,38 @@ plugins=($plugins spaceship-section)
 ### [zplug]
 
 ```zsh
-zplug "spaceship-prompt/spaceship-section"
+zplug "amerryma/spaceship-supabase"
 ```
 
 ### [antigen]
 
 ```zsh
-antigen bundle "spaceship-prompt/spaceship-section"
+antigen bundle "amerryma/spaceship-supabase"
 ```
 
 ### [antibody]
 
 ```zsh
-antibody bundle "spaceship-prompt/spaceship-section"
+antibody bundle "amerryma/spaceship-supabase"
 ```
 
 ### [zinit]
 
 ```zsh
-zinit light "spaceship-prompt/spaceship-section"
+zinit light "amerryma/spaceship-supabase"
 ```
 
 ### [zgen]
 
 ```zsh
-zgen load "spaceship-prompt/spaceship-section"
+zgen load "amerryma/spaceship-supabase"
 ```
 
 ### [sheldon]
 
 ```toml
 [plugins.spaceship-section]
-github = "spaceship-prompt/spaceship-section"
+github = "amerryma/spaceship-supabase"
 ```
 
 ### Manual
@@ -99,7 +99,7 @@ If none of the above methods works for you, you can install Spaceship manually.
 
 ```zsh
 mkdir -p "$HOME/.zsh"
-git clone --depth=1 https://github.com/spaceship-prompt/spaceship-section.git "$HOME/.zsh/spaceship-section"
+git clone --depth=1 https://github.com/amerryma/spaceship-supabase.git "$HOME/.zsh/spaceship-section"
 ```
 
 For initializing prompt system add this to your `.zshrc`:
