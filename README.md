@@ -42,13 +42,13 @@ You need to source this plugin somewhere in your dotfiles. Here's how to do it w
 Execute this command to clone this repo into Oh-My-Zsh plugin's folder:
 
 ```zsh
-git clone https://github.com/amerryma/spaceship-supabase.git $ZSH_CUSTOM/plugins/spaceship-section
+git clone https://github.com/amerryma/spaceship-supabase.git $ZSH_CUSTOM/plugins/spaceship-supabase
 ```
 
-Include `spaceship-section` in Oh-My-Zsh plugins list:
+Include `spaceship-supabase` in Oh-My-Zsh plugins list:
 
 ```zsh
-plugins=($plugins spaceship-section)
+plugins=($plugins spaceship-supabase)
 ```
 
 ### [zplug]
@@ -84,7 +84,7 @@ zgen load "amerryma/spaceship-supabase"
 ### [sheldon]
 
 ```toml
-[plugins.spaceship-section]
+[plugins.spaceship-supabase]
 github = "amerryma/spaceship-supabase"
 ```
 
@@ -92,25 +92,25 @@ github = "amerryma/spaceship-supabase"
 
 If none of the above methods works for you, you can install Spaceship manually.
 
-1. Clone this repo somewhere, for example to `$HOME/.zsh/spaceship-section`.
+1. Clone this repo somewhere, for example to `$HOME/.zsh/spaceship-supabase`.
 2. Source this section in your `~/.zshrc`.
 
 ### Example
 
 ```zsh
 mkdir -p "$HOME/.zsh"
-git clone --depth=1 https://github.com/amerryma/spaceship-supabase.git "$HOME/.zsh/spaceship-section"
+git clone --depth=1 https://github.com/amerryma/spaceship-supabase.git "$HOME/.zsh/spaceship-supabase"
 ```
 
 For initializing prompt system add this to your `.zshrc`:
 
 ```zsh title=".zshrc"
-source "~/.zsh/spaceship-section/spaceship-section.plugin.zsh"
+source "~/.zsh/spaceship-supabase/spaceship-supabase.plugin.zsh"
 ```
 
 ## Usage
 
-After installing, add the following line to your `.zshrc` in order to include Ember section in the prompt:
+After installing, add the following line to your `.zshrc` in order to include Supabase section in the prompt:
 
 ```zsh
 spaceship add supabase
