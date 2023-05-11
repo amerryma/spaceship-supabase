@@ -32,7 +32,7 @@ oneTimeSetUp() {
   SPACESHIP_PROMPT_ASYNC=false
   SPACESHIP_PROMPT_FIRST_PREFIX_SHOW=true
   SPACESHIP_PROMPT_ADD_NEWLINE=false
-  SPACESHIP_PROMPT_ORDER=(supabase)
+  SPACESHIP_PROMPT_ORDER=(spaceship-supabase)
 
   echo "Spaceship version: $(spaceship --version)"
 }
