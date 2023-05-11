@@ -1,6 +1,6 @@
 <h1 align="center">
   🗲 + 🚀
-  <br>Spaceship Section<br>
+  <br>Supabase Section<br>
 </h1>
 
 <h4 align="center">
