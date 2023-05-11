@@ -147,3 +147,4 @@ MIT © [Aaron Merryman](http://disca.tech)
 [zinit]: https://github.com/zdharma/zinit
 [zgen]: https://github.com/tarjoilija/zgen
 [sheldon]: https://sheldon.cli.rs/
+[supabase]: https://supabase.com/
