@@ -10,7 +10,7 @@ typeset -g SPACESHIP_ROOT="${SPACESHIP_ROOT:=/spaceship}"
 
 # Mocked tool CLI
 mocked_version="v1.0.0-mocked"
-foobar() {
+supabase() {
   echo "$mocked_version"
 }
 
@@ -32,7 +32,7 @@ oneTimeSetUp() {
   SPACESHIP_PROMPT_ASYNC=false
   SPACESHIP_PROMPT_FIRST_PREFIX_SHOW=true
   SPACESHIP_PROMPT_ADD_NEWLINE=false
-  SPACESHIP_PROMPT_ORDER=(foobar)
+  SPACESHIP_PROMPT_ORDER=(supabase)
 
   echo "Spaceship version: $(spaceship --version)"
 }
@@ -59,9 +59,9 @@ test_mocked_version() {
   # Prepare the environment
   touch $SHUNIT_TMPDIR/test.foo
 
-  local prefix="%{%B%}$SPACESHIP_FOOBAR_PREFIX%{%b%}"
-  local content="%{%B%F{$SPACESHIP_FOOBAR_COLOR}%}$SPACESHIP_FOOBAR_SYMBOL$mocked_version%{%b%f%}"
-  local suffix="%{%B%}$SPACESHIP_FOOBAR_SUFFIX%{%b%}"
+  local prefix="%{%B%}$SPACESHIP_SUPABASE_PREFIX%{%b%}"
+  local content="%{%B%F{$SPACESHIP_SUPABASE_COLOR}%}$SPACESHIP_SUPABASE_SYMBOL$mocked_version%{%b%f%}"
+  local suffix="%{%B%}$SPACESHIP_SUPABASE_SUFFIX%{%b%}"
 
   local expected="$prefix$content$suffix"
   local actual="$(spaceship::testkit::render_prompt)"

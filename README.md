@@ -1,10 +1,10 @@
 <h1 align="center">
-  😍 + 🚀
+  ⚡ + 🚀
   <br>Spaceship Section<br>
 </h1>
 
 <h4 align="center">
-  A <a href="https://template.com" target="_blank">Foobar</a> section for Spaceship prompt
+  A <a href="https://template.com" target="_blank">Supabase</a> section for Spaceship prompt
 </h4>
 
 <p align="center">
@@ -31,7 +31,7 @@
   </a>
 </p>
 
-Current Foobar version, through foobar (`😍`).
+Current Supabase version, through supabase (`⚡`).
 
 ## Installing
 
@@ -113,20 +113,20 @@ source "~/.zsh/spaceship-section/spaceship-section.plugin.zsh"
 After installing, add the following line to your `.zshrc` in order to include Ember section in the prompt:
 
 ```zsh
-spaceship add foobar
+spaceship add supabase
 ```
 
 ## Options
 
-This section is shown only in directories within a foobar context.
+This section is shown only in directories within a supabase context.
 
 | Variable                   |              Default               | Meaning                              |
 | :------------------------- | :--------------------------------: | ------------------------------------ |
-| `SPACESHIP_FOOBAR_SHOW`   |               `true`               | Show current section                 |
-| `SPACESHIP_FOOBAR_PREFIX` | `$SPACESHIP_PROMPT_DEFAULT_PREFIX` | Prefix before section                |
-| `SPACESHIP_FOOBAR_SUFFIX` | `$SPACESHIP_PROMPT_DEFAULT_SUFFIX` | Suffix after section                 |
-| `SPACESHIP_FOOBAR_SYMBOL` |               `😍·`                | Character to be shown before version |
-| `SPACESHIP_FOOBAR_COLOR`  |             `yellow`               | Color of section                     |
+| `SPACESHIP_SUPABASE_SHOW`   |               `true`               | Show current section                 |
+| `SPACESHIP_SUPABASE_PREFIX` | `$SPACESHIP_PROMPT_DEFAULT_PREFIX` | Prefix before section                |
+| `SPACESHIP_SUPABASE_SUFFIX` | `$SPACESHIP_PROMPT_DEFAULT_SUFFIX` | Suffix after section                 |
+| `SPACESHIP_SUPABASE_SYMBOL` |               `⚡·`                | Character to be shown before version |
+| `SPACESHIP_SUPABASE_COLOR`  |             `yellow`               | Color of section                     |
 
 ## Contributing
 
