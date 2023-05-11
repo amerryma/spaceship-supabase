@@ -136,7 +136,7 @@ Contribute to this repo by submitting a pull request. Please use [conventional c
 
 ## License
 
-MIT © [Name Surname](http://yourwebsite.com)
+MIT © [Aaron Merryman](http://disca.tech)
 
 <!-- References -->
 
