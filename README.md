@@ -1,5 +1,5 @@
 <h1 align="center">
-  ⚡ + 🚀
+  🗲 + 🚀
   <br>Spaceship Section<br>
 </h1>
 
@@ -31,7 +31,7 @@
   </a>
 </p>
 
-Current Supabase version, through supabase (`⚡`).
+Current Supabase version, through supabase (`🗲`).
 
 ## Installing
 
@@ -125,7 +125,7 @@ This section is shown only in directories within a supabase context.
 | `SPACESHIP_SUPABASE_SHOW`   |               `true`               | Show current section                 |
 | `SPACESHIP_SUPABASE_PREFIX` | `$SPACESHIP_PROMPT_DEFAULT_PREFIX` | Prefix before section                |
 | `SPACESHIP_SUPABASE_SUFFIX` | `$SPACESHIP_PROMPT_DEFAULT_SUFFIX` | Suffix after section                 |
-| `SPACESHIP_SUPABASE_SYMBOL` |               `⚡·`                | Character to be shown before version |
+| `SPACESHIP_SUPABASE_SYMBOL` |               `🗲·`                | Character to be shown before version |
 | `SPACESHIP_SUPABASE_COLOR`  |             `yellow`               | Color of section                     |
 
 ## Contributing
